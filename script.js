@@ -12,5 +12,10 @@ btn_toggle.onclick = () => {
 
 // more codes for Search and Reset buttons here
 function searchbutton() {
-  
+  let colors = document.getElementById("color").value
+  document.getElementById("text").style.backgroundColor = colors
+}
+
+function resetbutton() {
+  document.getElementById("text").style.backgroundColor = "white"
 }
