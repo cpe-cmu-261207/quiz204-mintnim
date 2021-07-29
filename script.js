@@ -19,3 +19,8 @@ function searchbutton() {
 function resetbutton() {
   document.getElementById("text").style.backgroundColor = "white"
 }
+
+function displaybutton() {
+  let newtext = document.
+  document.getElementById("toggle").innerHTML = newtext
+}
