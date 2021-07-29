@@ -11,3 +11,6 @@ btn_toggle.onclick = () => {
 }
 
 // more codes for Search and Reset buttons here
+function searchbutton() {
+  
+}
